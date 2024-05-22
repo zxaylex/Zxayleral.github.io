@@ -1,15 +1,159 @@
 :root {
-	--background-color: #051014;
-	--text-color: #F5F5F5;
-	--span-color: #1976D2;
+	--background: #062726;
+	--primary: #E2CFEA;
+	--light-primary: #A06CD5;
+	--dark-primary: #6247AA;
+	--accent: #102B3F;
 }
 
 body {
-	background-color: var(--background-color);
-	color: var(--text-color);
-	font-family: "JetBrains Mono";
+	background-color: var(--background);
+	color: var(--primary);
+	font-family: "Lexend", sans-serif;
 	display: normal;
 }
-h1 {
+
+
+.main {
+	margin-top: 8rem;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
+}
+
+.profile-img {
+	width: 169px;
+	height: 169px;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.icons {
+	margin-top: 2rem;
+}
+
+.icons img {
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+
+h1 {
+	margin-bottom: 0;
+	color: var(--light-primary);
+}
+
+a {
+	margin-top: 0;
+	color: var(--dark-primary);
+	margin-bottom: 0;
+}
+
+.lang {
+	margin-top: 5vh;
+}
+
+.lang a {
+	font-size: 12px;
+}
+
+.lang section a {
+	font-size: 15px;
+	color: var(--primary);
+}
+
+.py {
+	color: var(--light-primary);
+}
+
+.js {
+	color: var(--dark-primary);
+}
+
+.rs {
+	color: #21669A;
+}
+
+.common {
+	color: var(--primary);
+}
+
+@media only screen and (min-width: 768px) {
+	.main {
+		background-color: var(--accent);
+		display: flex;
+		height: 323px;
+		align-items: center;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		border-radius: 20px;
+		text-align: left;
+	}
+
+	.profile-img {
+		height: 250px;
+		width: 250px;
+		margin-left: 23px;
+	}
+
+	.content {
+		margin-left: 27px;
+		align-items: left;
+		justify-items: left;
+	}
+
+	.first-icon {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.main {
+		margin: auto;
+		width: 950px;
+		height: 430px;
+	}
+
+	.profile-img {
+		width: 431px;
+		height: 431px;
+		border-radius: 20px 0px 0px 20px;
+		margin-left: 0px;
+	}
+
+	.name h1 {
+		font-size: 50px;
+	}
+
+	.name a {
+		font-size: 20px;
+	}
+
+	.icons {
+		margin-top: 1rem;
+		margin-left: 0px;
+		display: flex;
+		width: 30px;
+		height: 30px;
+		margin-left: -7px;
+	}
+
+
+	.content {
+		margin: auto;
+	}
+
+	.lang {
+		a {
+			font-size: 14px;
+		}
+		section a {
+			font-size: 18px;
+		}
+	}
 }

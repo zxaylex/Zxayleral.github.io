@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M25 0L25 0L25 25L0 25L0 0L25 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Twitterx">
+    <path d="M25 0L25 0L25 25L0 25L0 0L25 0Z" id="Twitterx" fill="none" stroke="none" />
+    <path d="M5.5 2C3.57283 2 2 3.57283 2 5.5L2 19.5C2 21.4272 3.57283 23 5.5 23L19.5 23C21.4272 23 23 21.4272 23 19.5L23 5.5C23 3.57283 21.4272 2 19.5 2L5.5 2L5.5 2ZM5.5 3L19.5 3C20.8868 3 22 4.11317 22 5.5L22 19.5C22 20.8868 20.8868 22 19.5 22L5.5 22C4.11317 22 3 20.8868 3 19.5L3 5.5C3 4.11317 4.11317 3 5.5 3L5.5 3ZM6.54297 6.5L11.1543 13.0518L6.5 18.5L7.75 18.5L11.7188 13.8535L14.9883 18.5L18.957 18.5L13.8945 11.3066L18 6.5L16.75 6.5L13.3301 10.5049L10.5117 6.5L6.54297 6.5L6.54297 6.5ZM8.45703 7.5L9.98926 7.5L17.043 17.5L15.5107 17.5L8.45703 7.5L8.45703 7.5Z" id="Shape" fill="#E2CFEA" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+  </g>
+</svg>
